@@ -1,0 +1,8 @@
+{
+  "url": "https://phappt.co.dakota.mn.us/clinic/search",
+  "selector": "div.text-gray-800",
+  "fields": [
+    { "name": "name", "path": [ "children", 0, "innerText" ] },
+    { "name": "url", "path": [ "children", 10, "children", 0, "href" ] }
+  ]
+}
