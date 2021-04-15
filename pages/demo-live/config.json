@@ -1,0 +1,9 @@
+{
+  "url": "https://youthful-kirch-1b0414.netlify.app/",
+  "selector": "tbody tr",
+  "fields": [
+    { "name": "title", "path": ["children", 0, "innerText"] },
+    { "name": "director", "path": ["children", 1, "innerText"] },
+    { "name": "releaseDate", "path": ["children", 2, "innerText"] }
+  ]
+}

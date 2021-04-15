@@ -18,8 +18,9 @@ const mutation = gql`
 
 async function handleSuccess(run) {
   try {
-    const response = await gqlClient.request(mutation, { run })
-    console.log(JSON.stringify(response, null, 2))
+    // const response = await gqlClient.request(mutation, { run })
+    // console.log(JSON.stringify(response, null, 2))
+    console.log(JSON.stringify(run, null, 2))
   } catch (error) {
     console.log(error)
   }

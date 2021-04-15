@@ -1,6 +1,9 @@
-const { handleError, handleSuccess } = require("./response-handler")
-const { runOne, runMany } = require("../../pipeline")
-const { getPage } = require("../../pages")
+const {
+  handleError,
+  handleSuccess,
+} = require("../result-handlers/dakotaCounty")
+const { runOne, runMany } = require("../pipeline")
+const { getPage } = require("../pages")
 
 const searchPageName = "clinic-search-live"
 const detailPageName = "clinic-detail-live"
