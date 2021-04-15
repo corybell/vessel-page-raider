@@ -10,6 +10,12 @@ git remote rm origin
 ## Example .env file
 
 ```
-# .env.development
-GATSBY_FUNCTIONS_URL=http://localhost:8888/.netlify/functions
+# every n sec
+#CRON_PATTERN="*/10 * * * * *"
+
+# every minute
+#CRON_PATTERN="* * * * *"
+
+# every 5 min
+CRON_PATTERN="0,5,10,15,20,25,30,35,40,45,50,55 * * * *"
 ```
