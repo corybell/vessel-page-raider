@@ -1,7 +1,0 @@
-{
-  "selector": "tbody tr",
-  "fields": [
-    { "name": "time", "path": ["children", 0, "innerText"] },
-    { "name": "numberAvailable", "path": ["children", 1, "innerText"] }
-  ]
-}

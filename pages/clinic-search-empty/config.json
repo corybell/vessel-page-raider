@@ -1,8 +1,0 @@
-{
-  "url": "file:///Users/corybell/Desktop/vac_pages/MinnesotaDakotaSearchEmpty.html",
-  "selector": "div.text-gray-800",
-  "fields": [
-    { "name": "name", "path": ["children", 0, "innerText"] },
-    { "name": "url", "path": ["children", 10, "children", 0, "href"] }
-  ]
-}
