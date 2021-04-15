@@ -1,4 +1,5 @@
 ## Clone this vessel
+
 ```shell
 mkdir new-project
 cd new-project
@@ -7,6 +8,7 @@ git remote rm origin
 ```
 
 ## Example .env file
+
 ```
 # .env.development
 GATSBY_FUNCTIONS_URL=http://localhost:8888/.netlify/functions

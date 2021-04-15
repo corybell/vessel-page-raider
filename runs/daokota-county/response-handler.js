@@ -1,4 +1,4 @@
-const { GraphQLClient, gql } = require('graphql-request')
+const { GraphQLClient, gql } = require("graphql-request")
 const { GQL_ENDPOINT } = process.env
 const gqlClient = new GraphQLClient(GQL_ENDPOINT)
 
@@ -16,7 +16,7 @@ const mutation = gql`
   }
 `
 
-async function handleSuccess (run) {
+async function handleSuccess(run) {
   try {
     const response = await gqlClient.request(mutation, { run })
     console.log(JSON.stringify(response, null, 2))
@@ -25,7 +25,7 @@ async function handleSuccess (run) {
   }
 }
 
-function handleError (err) {
+function handleError(err) {
   console.log(err)
 }
 
