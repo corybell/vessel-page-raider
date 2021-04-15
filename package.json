@@ -1,13 +1,13 @@
 {
-  "name": "vaccine-cafe",
-  "version": "1.0.0",
-  "description": "",
+  "name": "vessel-page-raider",
+  "version": "0.1.0",
+  "description": "A vessel for launching a page raider project.",
   "main": "index.js",
   "scripts": {
-    "start": "node --trace-warnings index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "node --trace-warnings index.js"
   },
-  "author": "",
+  "author": "@bellistic",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^8.2.0",
@@ -15,5 +15,8 @@
     "graphql-request": "^3.4.0",
     "node-cron": "^3.0.0",
     "puppeteer": "^8.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.2.1"
   }
 }
