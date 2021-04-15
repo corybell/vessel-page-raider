@@ -1,6 +1,6 @@
 require("dotenv").config()
 const cron = require("node-cron")
-const { run, handleError, handleSuccess } = require("./runs/daokota-county")
+const { run, handleError, handleSuccess } = require("./raids/daokota-county")
 
 const { CRON_PATTERN } = process.env
 
